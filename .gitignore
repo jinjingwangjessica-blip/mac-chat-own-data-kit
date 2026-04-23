@@ -1,0 +1,69 @@
+# Never commit personal data.
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+*.db-journal
+*.dat
+*.material
+wechat_keys.json
+wechat_img_key.*
+
+# Never commit extracted or decrypted data.
+decrypted/
+out/
+output/
+export/
+exported/
+raw/
+media/
+photos/
+videos_all/
+video_thumbs/
+images_enc/
+photo_ocr*.jsonl
+messages.jsonl
+manifest.yaml
+manual_milestones.*
+manual_weights.*
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+
+# Except docs/screenshots deliberately placed in docs/assets/
+!docs/assets/*.png
+!docs/assets/*.svg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.astro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+.tools/
+/tmp/
